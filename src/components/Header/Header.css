@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+.Bar {
+    display: flex;
+    height: 100px;
+    border-bottom: 2px solid darkgrey;
+    background-color: white;
+    opacity: 0.9;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.Bar h1 {
+    font-family: "Space Mono";
+    color: black;
+    margin-left: 25px;
+}

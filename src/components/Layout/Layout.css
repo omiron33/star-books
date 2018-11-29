@@ -1,0 +1,40 @@
+.LayoutGrid {
+    display: grid;
+    grid-template-columns: 25% 73% 2%;
+    grid-template-rows: 100px auto 25px;
+    height: 100vh;
+}
+
+.LibraryCard {
+    padding: 10px;
+    grid-column-start: 2;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    overflow-y: scroll;
+}
+
+.SelectionChoices {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 200px auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    justify-items: center;
+}
+
+.SelectionChoices button {
+    display: grid;
+    width: 100px;
+    height: 50px;
+    justify-self: center;
+}
+
+.SelectionChoices h3 {
+    color: white;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3
+
+}
